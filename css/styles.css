@@ -10,9 +10,6 @@ header{
     display: flex;
     align-items: center;
 }
-nav {
-    display: flex;
-}
 
 .pokeball{
     width: 4em;
@@ -44,8 +41,9 @@ header {
 nav {
     background-color: #3b4cca;
     color: white;
+    padding: 10px 0; /* Añadir espacio interno arriba y abajo */
+    text-align: center;
 }
-
 footer {
     background-color: #ccc;
     color: black;
@@ -56,24 +54,26 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
+    display: flex;
+    justify-content: center; /* Centrar los elementos del menú horizontalmente */
 }
 
+
+
 nav li {
-    float: left;
+    margin: 0 10px; /* Añadir espacio entre elementos del menú */
 }
 
 nav li a {
     display: block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 5px; /* Agregar bordes redondeados a los enlaces */
 }
 
 nav li a:hover {
-    background-color: #111;
+    background-color: #555; /* Cambiar color de fondo al pasar el mouse */
 }
 
 main {
