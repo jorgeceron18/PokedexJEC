@@ -50,6 +50,7 @@ nav {
 footer {
     background-color: #ccc;
     color: black;
+    padding: 1em;
 }
 
 nav ul {  
@@ -119,6 +120,7 @@ section p {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 10px; /* Espaciado entre los elementos */
     max-width: 200px; /* Ancho máximo de cada azulejo */
+    cursor: pointer;
 }
 
 .pokemon-tile img {
@@ -139,4 +141,12 @@ section p {
     font-size: 20px;
     line-height: 1.5;
     color: #666;
+}
+
+.pokemon-tile:hover {
+    background-color: #f0f0f0;
+}
+
+.selected {
+    border: 2px solid blue;
 }
