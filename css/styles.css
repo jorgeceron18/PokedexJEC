@@ -15,13 +15,14 @@ nav {
 }
 
 .pokeball{
-    width: 2em;
-    height: 2em;
-    margin: 0 10px;
+    width: 4em;
+    height: 4em;
+    margin: 0 40px;
 }
 
 .titlePage{
     flex-grow: 1; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header, nav, main, footer {
     text-align: center;
