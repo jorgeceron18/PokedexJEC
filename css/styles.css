@@ -41,7 +41,7 @@ header {
 nav {
     background-color: #3b4cca;
     color: white;
-    padding: 10px 0; /* Añadir espacio interno arriba y abajo */
+    padding: 20px 0; /* Añadir espacio interno arriba y abajo */
     text-align: center;
 }
 footer {
@@ -49,8 +49,8 @@ footer {
     color: black;
 }
 
-/* Additional styles for the navigation menu */
 nav ul {
+    
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -59,21 +59,20 @@ nav ul {
 }
 
 
-
-nav li {
-    margin: 0 10px; /* Añadir espacio entre elementos del menú */
-}
-
 nav li a {
+    background-color: white;
     display: block;
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 10px 16px;
     border-radius: 5px; /* Agregar bordes redondeados a los enlaces */
+    margin: 0 10px; /* Añadir espacio entre elementos del menú */
 }
 
+
 nav li a:hover {
-    background-color: #555; /* Cambiar color de fondo al pasar el mouse */
+    background-color: #252f7f; /* Cambiar color de fondo al pasar el mouse */
+    color: white;
 }
 
 main {
@@ -96,19 +95,3 @@ section p {
     line-height: 1.6;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    
-    border: 1px solid #ddd;
-    margin-top: 5px;
-    padding: 10px;
-    cursor: pointer;
-}
-
-ul li:hover {
-    background-color: #eee;
-}
