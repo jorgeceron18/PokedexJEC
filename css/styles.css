@@ -45,6 +45,7 @@ nav {
     color: white;
     padding: 20px 0; /* Añadir espacio interno arriba y abajo */
     text-align: center;
+    font-size: 20px;
 }
 footer {
     background-color: #ccc;
@@ -90,10 +91,11 @@ section h2 {
     background-color: black;
     color: white;
     padding: 10px;
+    font-size: 30px;
 }
 
 section p {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.6;
 }
 
