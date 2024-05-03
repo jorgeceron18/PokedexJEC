@@ -36,11 +36,11 @@ header, nav, main, footer {
 }
 
 header {
-    background-color: #ffcb05;
+    background-color: #DC0A2D;
 }
 
 nav {
-    background-color: #DC0A2D;
+    background-color: black;
     color: white;
     padding: 20px 0; /* Añadir espacio interno arriba y abajo */
     text-align: center;
@@ -73,7 +73,7 @@ nav li a {
     background-color:  #3b4cca;
 }
 nav li a:hover {
-    background-color: #7c071a; /* Cambiar color de fondo al pasar el mouse */
+    background-color: #DC0A2D; /* Cambiar color de fondo al pasar el mouse */
     color: white;
 }
 
